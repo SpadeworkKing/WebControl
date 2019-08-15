@@ -13,5 +13,11 @@ public:
 	QString m_qsPW;
 };
 
+class cSiteData
+{
+public:
+	QString m_qsSite;
+};
+
 
 #endif // !DIFINE_H

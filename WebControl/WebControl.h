@@ -21,11 +21,18 @@ private slots:
 	void on_buttonIdAdd_clicked();
 	void on_buttonIdDel_clicked();
 
+	void on_buttonSiteAdd_clicked();
+	void on_buttonSiteDel_clicked();
+
 private:
 	void addUser();
 	void delUser();
+
+	void addSite();
+	void delSite();
 	
-	QList<cUserData> m_qlistUser;
+	QList<cUserData> m_qlistUser;	// user id,pw 리스트
+	QList<cSiteData> m_qlistSite;	// site 리스트
 
 };
 
